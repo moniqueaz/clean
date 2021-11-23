@@ -1,0 +1,28 @@
+{
+  "name": "clean",
+  "version": "1.0.0",
+  "description": "Curso Clean Code and Clean Architecture",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+    "test": "tsc && jest dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moniqueaz/clean.git"
+  },
+  "author": "Monique Azevedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moniqueaz/clean/issues"
+  },
+  "homepage": "https://github.com/moniqueaz/clean#readme",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.3.1"
+  }
+}
